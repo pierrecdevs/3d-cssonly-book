@@ -12,3 +12,5 @@ If you have any issues with it please let me know.
 This is just a sample, please view my actual Resume / CV for relevant work experience.
 
 An honourable mention to the originator of the book [https://codepen.io/diemoritat](https://codepen.io/diemoritat)
+
+Click the right pages... pages on the right. 
