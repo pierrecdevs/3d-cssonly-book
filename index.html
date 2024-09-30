@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAMPLE CSS Only Portfolio</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="cover">
+        <div class="book">
+            <!-- Cover Page-->
+            <label for="page-1" class="book__page book__page--1">
+                <div class="img"></div>
+            </label>
+
+            <!-- Work Experience -->
+            <label for="page-1" class="book__page book__page--4">
+                <div class="page__content">
+                    <h1 class="page__content-title">Work Experience</h1>
+                    <div class="page__content-table">
+                        <div class="cell">
+                            <h3 id="surex">Full Stack Developer - Surex <span class="year"><i
+                                        class="bx bxs-calendar"></i> 2022 - 2024</span></h3>
+                            <p><strong>Highlight</strong> Engineered a custom browser extension that streamlined feature
+                                testing processes, reducing time by 15% and accelerating the development cycle by QA
+                                workflows</p>
+                        </div>
+                        <div class="cell">
+                            <h3 id="flexia">DevOps - Flexia <span class="year"><i class="bx bxs-calendar"></i>2012 -
+                                    2013</span></h3>
+                            <p><strong>Highlight</strong> Led migration from Flask to Drupal 7, successfully
+                                transitioning the
+                                platform while maintaining system stability and performance</p>
+                            <p>Managed system security of CentOS Linux servers, implementing best
+                                practices to ensure robust system security and reliability</p>
+                        </div>
+                        <div class="cell">
+                            <h3 id="jmg">Full Stack- JETT Media Group <span class="year"><i class="bx bxs-calendar"></i>
+                                    2008 - 2009</span></h3>
+                            <p><strong>Highlighted</strong> Integrated SAPI with Asterisk PBX and PHP to send and
+                                receive text messages</p>
+                            <p>Created secure backend API for Hotel Booking system.</p>
+                        </div>
+                    </div>
+                    <div class="page__number">3</div>
+                </div>
+            </label>
+            
+            <!-- Resets the page -->
+            <input type="radio" name="page" id="page-1" />
+
+            <!-- Goes to the second page -->
+            <input type="radio" name="page" id="page-2" />
+
+            <label for="page-2" class="book__page book__page--2">
+                <div class="book__page-front">
+                    <div class="page__content">
+                        <h1 class="page__content-book-title">Pierre C</h1>
+                        <h2 class="page__content-author">Full Stack</h2>
+
+                        <div class="socials">
+                            <a href="https://www.linkedin.com/in/pierre-c-66a201132" target="_blank"><i class="bx bxl-linkedin-square"></i></a>
+                            <a href="https://github.com/pierrecdev" target="_blank"><i class="bx bxl-github"></i></a>
+                            <a href="https://codepen.io/profile/goldfeesh" target="_blank"><i class="bx bxl-codepen"></i></a>
+                            <a href="https://twitch.tv/FallenLearns" target="_blank"><i class="bx bxl-twitch"></i></a>
+                        </div>
+                        <p class="page__content-credits">
+                            Building secure, scalable solutions for the digital world.
+                        </p>
+                    </div>
+                </div>
+                <div class="book__page-back">
+                    <div class="page__content">
+                        <h1 class="page__content-title">Technology Stack</h1>
+                        <div class="page__content-table">
+                            <div>
+                                <h3 id="surex">Front End</h3>
+                                <p>HTML, CSS, JavaScript/TypeScript</p>
+                                <p>
+                                    <span>Frameworks:</span>
+                                    Angular, React, Vue, TailwindCSS, Bootstrap, Materialize
+                                </p>
+                            </div>
+                            <div>
+                                <h3 id="flexia">Back End</h3>
+                                <p>PHP, NodeJS, Python, Golang</p>
+                                <p>
+                                    <span>Frameworks:</span>
+                                    Laravel/Symfony, WordPress, Drupal, ExpressJS, DJango, Flask
+                                </p>
+                            </div>
+                            <div>
+                                <h3 id="jmg">DevOps</h3>
+                                <p>Drupal, Jenkins, GitHub, PowerShell, Bash</p>
+                                <p>
+                                    <span>Cloud Infrastructure:</span>
+                                    Google Cloud, Azure
+                                </p>
+                            </div>
+                            <div>
+                                <h3 id="jmg">Automation and Testing</h3>
+                                <p>Selenium, Jest, Supertest,</p>
+                                <p>
+                                    <span>Testing Frameworks:</span>
+                                    Mocha, Sinon, Chai, Karma, Jasmine
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page__number">2</div>
+                </div>
+            </label>
+
+        </div>
+    </div>
+</body>
+
+</html>
